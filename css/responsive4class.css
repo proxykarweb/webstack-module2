@@ -1,0 +1,111 @@
+*{ 
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+
+html, body{
+	font-family:"Times New Roman", Georgia, Serif;
+
+
+}
+
+#menu{
+	width:100%;
+	
+}
+
+#menu > h1{
+	text-align:center;
+}
+
+
+.row{
+	width:100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-3-large{
+		float:left;
+
+	}
+
+	.col-3-large{
+ 	 	width:33.3%; 
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-2-med, .col-1-med{
+		float:left;
+	}
+
+ 	.col-2-med{
+ 		width:50%;
+ 	}
+
+ 	 .col-1-med{
+	 	width:100%;
+	 }
+
+ }		 
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+ 	.col-1-small{
+ 		float:left;
+ 	}
+
+ 	.col-1-small{
+ 		width:100%;
+ 			
+ 	}
+
+ }
+
+ .container{ 
+ 	width:calc(100%-10px);
+ 	float:left;
+ 	border-width:1px;
+ 	border:solid;
+  	margin-bottom:10px;
+ 	margin-right:10px;
+ } 
+
+ 
+h2{
+	margin:0px 0px 0px 70%;
+	text-align:center;
+	border:solid;
+	border-width:1px;
+}
+
+h2.heading1{
+	background:red;
+	
+
+}
+
+h2.heading2{
+	background:red;
+	
+	
+}
+
+h2.heading3{
+	background:yellow;
+
+
+}
+
+
+.container p{
+	margin:0px 0px 0px 0px;
+	float:left;
+	clear:both;
+}
+
+
+
