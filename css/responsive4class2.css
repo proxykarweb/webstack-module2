@@ -1,0 +1,282 @@
+
+html, body{
+	font-family:"Times New Roman", Georgia, Serif;
+	margin:0 0 0 0;
+
+}
+
+.row a{
+	padding:.5em .5em .5em .5em;
+	margin:0 0 0 0;
+}
+
+
+
+.row h1,h2,h3{
+	margin:0 0 0 0;
+}
+
+.row h3{
+	padding:1em 1em 1em 1em;
+}
+
+#header{
+	min-width:300px;
+	width:100%;
+	background-color:grey;
+	height:76px;
+
+}
+
+
+#header #banner #header_right{
+	height:100%;
+	width:80px;
+	float:right;
+	padding-top:5px;
+	position:relative;
+}
+
+#header #banner{ /****/
+	font-size:1em;
+	font-family:inherit;
+	height:75px;
+	overflow-y:hidden;
+	box-sizing:border-box;
+	
+}
+
+#header #banner #header_left{
+	float:left;	
+	height:75px;
+	padding-left:10%;
+	padding-top:20px;
+}
+
+#header #banner #header_left h1{ /****/
+	margin:0 0 0 0;	
+}
+
+
+#menu{
+	height:700px;
+	width:100%;
+	padding-left:2%;
+	padding-right:10px;
+	padding-top:.1em;
+	height:100%;
+	box-sizing:border-box;
+	overflow-y:auto;
+
+
+
+}
+
+#menu > h2{
+	text-align:center;
+	margin-top:1em;
+}
+
+
+.row{
+		width:100%;
+		color:inherit;
+		font-size:inherit;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-3-large{
+		float:left;
+
+	}
+
+	.col-3-large{
+ 	 	width:33.3%; 
+	}
+
+	#selection{
+		display:none;
+	}
+
+	#container_button{
+		display:none;
+	}
+
+	#header{
+		overflow:hidden;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-2-med, .col-1-med{
+		float:left;
+	}
+
+	#container_button{
+		display:none;
+	}
+
+	#selection{
+		display:none;
+	}
+
+
+ 	.col-2-med{
+ 		width:50%;
+ 	}
+
+ 	 .col-1-med{
+	 	width:100%;
+	 }
+
+	 #header{
+	 	overflow:hidden;
+	 }
+
+ }		 
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+ 	 html, body{
+ 	 	margin:0px 0px 0px 0px;
+ 	 }
+
+ 	.col-1-small{
+ 		float:left;
+ 	
+ 	}
+
+ 	.col-1-small{
+ 		width:100%;
+ 	}
+
+ 	#menu{ /**fix this later by using js to adjust it**/
+ 			height:500px;
+ 			overflow-y:auto;
+			z-index:-1;
+
+ 	}
+
+ 	
+
+ }
+
+
+/*Testing for Canvas drawn with css3*/
+/** for button **/
+
+
+.define_base_style_header{
+		font-size:1em;	
+		border:solid;
+		border-width:.1em;
+		font-family:arial;
+}
+
+
+
+/**phone bar base css**/
+/** oops wasn't what was on mock but will need it for future function map to server-functions**/
+/*
+.dropdown-content{ 
+	display:block;
+	position:absolute;
+	min-width:160px;
+	z-index:1;
+}**/
+/*
+.dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}*/
+/*
+.dropdown{
+	position:relative;
+	display:none;
+}
+**/
+/** oops wasn't what was on mock but will need it for future function map to server-functions:using Ajax handler base script, Morp Header#banner to imitate phone and m.mobile of that web page. page when the phone browser bar is down**/
+
+#selection
+{
+	width:100%;
+	display:none;
+}
+
+#selection a{
+	text-align:center;
+	display:block;
+	text-decoration-color: black;
+	text-decoration:none;
+	color:black;
+	border-width:1px;
+	border-bottom:solid;
+	border-color:black;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+
+	width:100%;
+	clear:right;
+
+}
+
+#container_button{
+
+	font-size:16px;
+	width:4em;
+	border-radius:1em;
+	border:solid;
+	border-width:.05em;
+	border-color:white;
+}
+
+#container_button > span{
+	display:block;
+	background-color:#b2b2b2;
+
+}
+
+
+#container_button > span.blockit{
+	/**color:red;***/
+	width: 100%-30.5px;/*calc(100%-13.5px);*/
+	height:2px;/*2px;*/
+	margin-bottom:12.5px;
+	margin-left:12.5px;
+	margin-right:12.5px;
+
+}
+
+
+#container_button > span.spacer{
+	color:black;
+	background-color:red;
+	border-width:1em;
+	width:.001%;
+	height:2px;
+	margin-bottom:10.0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
