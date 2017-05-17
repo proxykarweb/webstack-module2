@@ -1,5 +1,5 @@
 #header-nav{
-	background-color:#f6b319;
+	background-color:grey;
 	border-radius:0;
 	border:0;
 		
@@ -19,7 +19,7 @@ h2{
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar
 {
-	border:1px solid #61122f;
+	border:1px solid #border;
 
 	
 }
@@ -31,7 +31,7 @@ h2{
 {
 	padding-top:0px;
 	font-family: 'Lora', serif;
-	color:#557c3e;
+	color:Black;
 	font-size:2em;
 	text-transform: uppercase;
 	font-weight:bold;
