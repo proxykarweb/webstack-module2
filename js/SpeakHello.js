@@ -12,7 +12,7 @@
 (function(window){
 	var helloSpeaker = {};
 	helloSpeaker.speak = function(name){
-			document.write("hello" + name); 
+			document.write("hello" + name+ "<BR>"); 
 		};
 
 	window.helloSpeaker = helloSpeaker;
